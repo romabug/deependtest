@@ -1,0 +1,92 @@
+  .power-statistics .ty-flag.ty-flag-01 {
+    background-position: 0 0;
+    display: inline-block;
+    padding-right: 4px;
+    width: 16px;
+    height: 16px;
+    background: url('../media/images/addons/cp_power_statistics/flags_backend.png') no-repeat top left;
+    vertical-align: text-top;    
+  }
+  
+  .ps-users-online-block .ty-flag.ty-flag-01 {
+    background-position: 0 0;
+    display: inline-block;
+    margin: 2px 4px 0 4px;
+    width: 16px;
+    height: 16px;
+    background: url('../media/images/addons/cp_power_statistics/flags_backend.png') no-repeat top left;
+    vertical-align: text-top;    
+  }
+  .ps-users-online-block .ty-flag {
+      display: inline-block;
+      padding-top: -3px;
+      float: none;
+      top: 4px;
+      width: 16px;
+      height: 13px;
+      margin: auto;
+      margin-right: 6px;
+      margin-left: 5px;  
+  }
+  
+  .power-statistics .table {
+      margin: 0 auto;
+  }
+  .power-statistics {
+      min-width: 300px;
+  }
+  
+  .ps-inline.flag {
+    display: inline-block;
+    padding-right: 4px;
+    width: 16px;
+    height: 16px;
+    float: none;
+    margin: 0 0 -3px 10px;
+  }
+  
+  .ps-browser {
+      margin: -3px 0 0 10px;
+  }
+  
+  .ps-users-online {
+      opacity: 0.5;
+      margin-top: -3px;
+  }
+  .ps-users-online-block {
+      display: inline-block;
+      padding: 2px;
+      /*background: #ffffff;*/
+/*       border-radius: 5px; */
+      margin-top: 6px;
+      opacity: 0.8;
+/*       color: #6d6d6d; */
+  }
+  .ps-lp-online-block {
+      display: inline-block;
+      padding: 2px 2px 2px 15px;
+      /*background: #ffffff;*/
+/*       border-radius: 5px; */
+      margin-top: 7px;
+      opacity: 0.8;
+/*       color: #6d6d6d; */    
+  }
+  
+  .ps-users-online-block:hover, .ps-lp-online-block:hover {
+      opacity: 1;    
+  }
+  .ps-no-to-margin {
+    margin-top: 0 !important;
+  }
+  .ps-ty-table {
+      margin: 10px 0 10px 0 !important;
+  }
+  .ps-initial-width {
+      width: initial !important;
+  }
+  .ps-popularity-table, .ps-popularity-table td, .ps-popularity-table tr {
+      background: none !important;
+  }
+  .ps-img-width {
+      width: 20px;
+  }

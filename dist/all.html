@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<!--include "./header.html"-->
+
+<body>
+    <section>
+        <div class="container nav-bar1">
+            <nav class="">
+                <input type="checkbox" id="nav" class="hidden" />
+                <label for="nav" class="nav-open"><i></i><i></i><i></i></label>
+                <div class="nav-container">
+                    <ul>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="sec2 clearfix">
+        <div>
+        </div>
+    </section>
+    <section class="sec3">
+        <div class="container maincontent">
+            <div class="row">
+                <div id="personList" class=" box2">
+                    <ul class="person-box" v-for="item in peps">
+                        <div> <img v-bind:src=item.elements.picture.value[0].url></div>
+                        <li>{{ item.elements.full_name.value }}</li>
+                        <a v-bind:href=item.elements.linkedin.value>{{ item.elements.linkedin.value }}</a>
+                        <!--   <div v-html=item.elements.bio.value> </div> -->
+                    </ul>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="myfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4  ">
+                    <div class="test-title">
+                        <i class="fa fa-scissors  "></i>
+                        <ul>
+                            <li>aaa</li>
+                            <li>bbb</li>
+                            <li>ccc</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4  ">
+                    <div class="test-title">
+                        <i class="fa fa-facebook  "></i>
+                        <ul>
+                            <li>aaa</li>
+                            <li>bbb</li>
+                            <li>ccc</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 ">
+                    <div class="test-title">
+                        <i class="fa fa-book  "></i>
+                        <ul>
+                            <li>aaa</li>
+                            <li>bbb</li>
+                            <li>ccc</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--include "./footer.html"-->
+</body>
+
+</html>

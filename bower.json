@@ -1,0 +1,22 @@
+{
+  "name": "tonytest1",
+  "description": "first bower",
+  "main": "gulpfile.js",
+  "authors": [
+    "tony cai"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/romabug/angular5",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "4.0",
+    "bootstrap-sass": "^3.3.7"
+  }
+}

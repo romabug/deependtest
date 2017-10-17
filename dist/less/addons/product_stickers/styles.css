@@ -1,0 +1,28 @@
+.sticker-wrapper {
+    position: absolute; 
+    width: 100%;
+    z-index: 2;
+}
+.ty-product-block__img-wrapper .sticker-wrapper > img {
+    display: inline;
+}
+.sticker-wrapper-A, .sticker-wrapper-D {
+    text-align: left;
+}
+.sticker-wrapper-B, .sticker-wrapper-E {
+    text-align: center;
+}
+.sticker-wrapper-C, .sticker-wrapper-F {
+    text-align: right;
+}
+.sticker-wrapper-D, .sticker-wrapper-E, .sticker-wrapper-F {
+    bottom: 0;
+}
+
+.sticker-wrapper-A, .sticker-wrapper-B, .sticker-wrapper-C {
+    top: 0;
+}
+
+.product-main-info .border-image-wrap, .ty-product-block__img {
+    position: relative;
+}
