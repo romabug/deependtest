@@ -209,7 +209,7 @@ gulp.task('default', ['doclean'], function() {
     setTimeout(function() {
         sequence('dobuild', 'dowatch', 'server');
 
-    }, 1200);
+    }, 2200);
 
 
     console.log('---- game start--->');
